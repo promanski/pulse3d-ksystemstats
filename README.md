@@ -1,5 +1,7 @@
 # PULSE 3D KSystemStats
 
+<img width="504" height="41" alt="obraz" src="https://github.com/user-attachments/assets/ffa13ba4-167e-4b1b-8d39-634c6de33651" />
+
 A read-only [KSystemStats](https://invent.kde.org/plasma/libksysguard) sensor
 script for the Sony PULSE 3D wireless headset and its USB receiver.
 
