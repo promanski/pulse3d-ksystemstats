@@ -49,6 +49,20 @@ script and its sensors.
 
 ## Testing
 
+The test suite uses only Python's standard library and does not require a
+connected headset or an installed HIDAPI library.
+
+Run all tests from the repository root with:
+
+```sh
+python3 -m unittest discover -s tests -v
+```
+
+The tests cover sensor conversion, validation of invalid and transitional HID
+values, mute states, and the sensor metadata exposed to KSystemStats.
+
+### Manual Protocol Test
+
 The script speaks the KSystemStats line protocol over standard input/output.
 To request one sensor value directly, run:
 
